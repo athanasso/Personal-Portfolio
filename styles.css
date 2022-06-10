@@ -118,10 +118,11 @@ img {
 
 #about ul {
   font-size: 1rem;
-  color: red;
+  color: #eee;
   font-weight: 100;
   margin-top: 2rem;
   text-align: left;
+  font-weight: bold;
 }
 
 #caption {
@@ -264,13 +265,6 @@ img {
 
 /* SMARTPHONE */
 @media (max-width: 800px) {
-  #title {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    line-height: 1;
-    margin-bottom: 0.2rem;
-  }
-
   #navbar {
     padding: 0rem 1rem;
     justify-content: center;
@@ -295,5 +289,19 @@ img {
 
   #main-footer #creator {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 1;
+    margin-bottom: 1rem;
+    margin-top: auto;
+  }
+
+  .lead {
+    font-size: 1.2rem;
   }
 }
