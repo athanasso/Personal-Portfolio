@@ -304,4 +304,9 @@ img {
   .lead {
     font-size: 1.2rem;
   }
+
+  #contact .social{
+    font-size: 0.5rem;
+    line-height: 1;
+  }
 }
