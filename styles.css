@@ -263,7 +263,14 @@ img {
 }
 
 /* SMARTPHONE */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+  #title {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 1;
+    margin-bottom: 0.2rem;
+  }
+
   #navbar {
     padding: 0rem 1rem;
     justify-content: center;
