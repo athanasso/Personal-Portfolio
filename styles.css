@@ -259,14 +259,13 @@ img {
 #main-footer #creator a {
   text-decoration: underline;
   color: #eee;
-
   line-height: 1.5;
 }
 
 /* SMARTPHONE */
 @media (max-width: 800px) {
   #navbar {
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
     justify-content: center;
   }
 
@@ -290,6 +289,15 @@ img {
   #main-footer #creator {
     margin-top: 1rem;
   }
+
+  #title {
+    margin-top: 8rem;
+  }
+
+  #projects {
+    padding: 2.5rem .1rem;
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -297,8 +305,7 @@ img {
     font-size: 1.5rem;
     font-weight: bolder;
     line-height: 1;
-    margin-bottom: 1rem;
-    margin-top: auto;
+    margin-bottom: 1rem;  
   }
 
   .lead {
