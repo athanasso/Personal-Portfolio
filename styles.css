@@ -298,6 +298,15 @@ img {
     padding: 2.5rem .1rem;
   }
 
+  #contact .container h1 {
+    font-size: 2rem;
+    padding-top: 6rem;
+  }
+
+  .project-tile {
+    padding-top: 6rem;
+  }
+
 }
 
 @media (max-width: 600px) {
